@@ -16,7 +16,8 @@ class Cliente:
             print("nao")
         else:
             self.__posicao = chute
-            
+
+
 if __name__ == "__main__":
     j = Cliente(posicao='')
     j.posicao = 'o'        
